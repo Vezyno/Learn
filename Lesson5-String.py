@@ -11,7 +11,7 @@ print('Messages:\n\tMessage1\n\tMessage2\n\tMessage3\nEND')
 print('Lower name: ' + name.lower())
 
 print('--------------------\n\n')
-a = '...... ,dadya vasya  ..........'
+a = '...... ,dadya vasya --- ..-.,,,-.,.-,.,.,-.'
 print(a)
 print(a.rstrip())
 print(a.lstrip())
