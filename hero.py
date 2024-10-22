@@ -32,13 +32,13 @@ class SuperHero(Hero):
         """Initiate our super hero"""
         super().__init__(name, level, race)
         self.magiclevel = magiclevel
-        self.magic = 100
+        self.__magic = 100
     
     def makemagic(self):
         """Use magic"""
-        self.magic -= 10
+        self.__magic -= 10
 
     def show_hero(self):
-        discription = ('Name is '+ self.name + ' Level is ' + str(self.level) + ' Health is ' + str(self.health) + f'Magic is {str(self.magic)}').title()
+        discription = ('Name is '+ self.name + ' Level is ' + str(self.level) + ' Health is ' + str(self.health) + f' Magic is {str(self.__magic)}').title()
         print(discription)
         
